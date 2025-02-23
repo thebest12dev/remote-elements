@@ -1,0 +1,36 @@
+{
+  "name": "remote-elements",
+  "version": "1.0.0",
+  "description": "An object to serialize and deserialize elements to be used for HTTP/WebSockets. Also can be used to synchronize data from a server.",
+  "type": "module",
+  "main": "./index.js",
+  "module": "./index.esm.js",
+  "exports": {
+    ".": {
+      "import": "./index.esm.js",
+      "default": "./index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebest12dev/remote-elements.git"
+  },
+  "keywords": [
+    "http",
+    "remote",
+    "browser",
+    "html"
+  ],
+  "author": "thebest12lines",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thebest12dev/remote-elements/issues"
+  },
+  "homepage": "https://github.com/thebest12dev/remote-elements#readme",
+  "dependencies": {
+    "remote-elements": "file:"
+  }
+}
