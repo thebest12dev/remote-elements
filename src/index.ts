@@ -1,7 +1,7 @@
 /*!
  * @file index.ts
  * @description The main file for `remote-elements`.
- * @version v1.0.0
+ * @version v1.1.0
  * 
  * Copyright (c) 2025 thebest12lines
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this software
@@ -30,7 +30,7 @@ type RemoteOptions = {
 /*
  * @file remote-elements (index.ts)
  * @description A browser library to safely serialize, deserialize and sync elements from a server.
- * @version v1.0.0
+ * @version v1.1.0
  */
 
 /**
